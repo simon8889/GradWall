@@ -1,0 +1,133 @@
+.menu-animation-enter, .menu-animation-appear {
+	opacity: 0;
+	width: 130%;
+	height: 0;
+}
+
+.menu-animation-enter-active, .menu-animation-appear-active {
+	opacity: 1;
+	width: 130%;
+	height: 240%;
+}
+
+.menu-animation-exit {
+	opacity: 1;
+	height: 240%;
+	width: 130%;
+}
+
+.menu-animation-exit-active {
+	opacity: 0;
+	height: 0;
+	width: 130%;
+}
+
+.remove-animation-enter, .remove-animation-appear {
+	opacity: 0;
+}
+
+.remove-animation-enter-active, .remove-animation-appear-active {
+	opacity: .6;
+}
+
+.remove-animation-exit {
+	opacity: .6;
+}
+
+.remove-animation-exit-active {
+	opacity: 0;
+}
+
+.gradient-container-animation-enter, .gradient-container-animation-appear {
+	opacity: 0;
+}
+
+.gradient-container-animation-enter-active, .gradient-container-animation-appear-active {
+	opacity: 1;
+}
+
+.gradient-container-animation-exit {
+	opacity: 1;
+}
+
+.gradient-container-animation-exit-active {
+	opacity: 0;
+}
+
+.menu-resolution-animation-enter, .menu-resolution-animation-appear {
+	opacity: 0;
+	width: 130%;
+	height: 0;
+}
+
+.menu-resolution-animation-enter-active, .menu-resolution-animation-appear-active {
+	opacity: 1;
+	width: 130%;
+	height: 140%;
+}
+
+.menu-resolution-animation-exit {
+	opacity: 1;
+	height: 160%;
+	width: 140%;
+}
+
+.menu-resolution-animation-exit-active {
+	opacity: 0;
+	height: 0;
+	width: 130%;
+}
+
+
+
+
+@media (max-width: 800px){
+	.menu-animation-enter, .menu-animation-appear {
+		opacity: 0;
+		width: 230%;
+		height: 0;
+	}
+
+	.menu-animation-enter-active, .menu-animation-appear-active {
+		opacity: 1;
+		width: 230%;
+		height: 400%;
+	}
+
+	.menu-animation-exit {
+		opacity: 1;
+		height: 400%;
+		width: 230%;
+	}
+
+	.menu-animation-exit-active {
+		opacity: 0;
+		height: 0;
+		width: 230%;
+	}
+	
+	.menu-resolution-animation-enter, .menu-resolution-animation-appear {
+		opacity: 0;
+		width: 230%;
+		height: 0;
+	}
+
+	.menu-resolution-animation-enter-active, .menu-resolution-animation-appear-active {
+		opacity: 1;
+		width: 230%;
+		height: 240%;
+	}
+
+	.menu-resolution-animation-exit {
+		opacity: 1;
+		height: 260%;
+		width: 240%;
+	}
+
+	.menu-resolution-animation-exit-active {
+		opacity: 0;
+		height: 0;
+		width: 230%;
+	}
+
+}
